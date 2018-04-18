@@ -1,0 +1,32 @@
+.color-info {
+  border-style: solid;
+  border-color:black;
+  border-width:3px;
+}
+
+#about_blue{
+  background-color:#6495ED;
+}
+
+#about_blue ul li{
+  color: blue;
+}
+
+#about_yellow{
+    background-color: #FFEBCD;
+}
+
+#about_yellow ul li{
+  color: orange;
+}
+.nav{
+  background-color: red;
+}
+
+.important{
+  font-size: 16px;
+  font-weight: bold;
+}
+a{
+  color:white
+}
