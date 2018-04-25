@@ -1,32 +1,92 @@
-.color-info {
-  border-style: solid;
-  border-color:black;
-  border-width:3px;
+h1 {text-align:center; font-family: Verdana}
+
+h2 {text-align:center;font-family: Verdana}
+
+p {text-align:center;font-family: Verdana; font-style: italic;
+}
+body {
+  background-image: url("../bristol.jpg");
+  background-size: cover;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 250px 250px 250px;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  padding: 10px;
+  margin: 100px;
+  margin-top: 10px;
 }
 
-#about_blue{
-  background-color:#6495ED;
+.grid-item {
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-#about_blue ul li{
-  color: blue;
+.overlay {
+  opacity: 0;
+  height: 100%;
+  transition: .5s ease;
+  background-color: rgba(255,105,180, 0);
 }
 
-#about_yellow{
-    background-color: #FFEBCD;
+.tyle1:hover .overlay {
+  opacity: 1;
+  background-color: rgba(255,105,180, 0.5);
 }
 
-#about_yellow ul li{
-  color: orange;
-}
-.nav{
-  background-color: red;
+.tyle2:hover .overlay {
+  opacity: 1;
+  background-color: rgba(255,105,180, 0.5);
 }
 
-.important{
-  font-size: 16px;
-  font-weight: bold;
+.tyle3:hover .overlay {
+  opacity: 1;
+  background-color: rgba(255,105,180, 0.5);
 }
-a{
-  color:white
+
+.tyle4:hover .overlay {
+  opacity: 1;
+  background-color: rgba(255,105,180, 0.5);
+}
+
+.tyle5:hover .overlay {
+  opacity: 1;
+  background-color: rgba(255,105,180, 0.5);
+}
+
+.tyle6:hover .overlay {
+  opacity: 1;
+  background-color: rgba(255,105,180, 0.5);
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.tyle1 {
+  background-image: url("../cocktail.jpeg");
+}
+
+.tyle2 {
+  background-image: url("../wggrace.jpg");
+}
+
+.tyle3 {
+  background-image: url("../kids.jpg");
+}
+
+.tyle4 {
+  background-image: url("../beer.jpg");
+}
+
+.tyle5 {
+  background-image: url("../novelty.jpg");
+}
+
+.tyle6 {
+  background-image: url("../hip.jpg");
 }
